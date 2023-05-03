@@ -1,0 +1,146 @@
+@media screen and (max-width:900px) {
+    .nav-links {
+        width: 500px;
+    }
+
+    .nav-logo img {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:830px) {
+    .nav-links li {
+        margin: 0 10px;
+        list-style: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .nav-links {
+        position: absolute;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(-100%);
+        transition: all 0.3s ease-in-out;
+        z-index: 1;
+    }
+    .nav-links {
+        width: 200px;
+    }
+    .nav-links.open {
+        transform: translateX(0);
+    }
+
+    .header-burger-menu {
+        display: block;
+    }
+
+    .menu-line {
+        width: 30px;
+        height: 1px;
+        background-color: #333;
+        margin: 5px 0;
+        transition: all 0.3s ease-in-out;
+        background-color: #fff;
+    }
+
+    .nav-links li {
+        padding: 15px;
+    }
+
+    .menu-line2 {
+        width: 20px;
+        height: 1px;
+        background-color: #333;
+        margin: 5px 0;
+        transition: all 0.3s ease-in-out;
+        background-color: #fff;
+    }
+
+    .nav-links a {
+        color: black;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:606px) {
+    .block__ins img {
+        position: relative;
+        width: 100%;
+    }
+
+    .block__ins {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .block-ft {
+        display: none;
+    }
+
+    #media-320 {
+        display: block;
+        text-align: center;
+        margin-left: 60px;
+        justify-content: center;
+    }
+    .main-ft{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+@media screen and (max-width:350px) {
+    .block__ins button {
+        max-width: 150px;
+        margin: auto;
+        height: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        color: #fff;
+        background-color: #CB4F19;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .block__ins {
+        padding-bottom: 10px;
+    }
+
+    .text_ins h1 {
+        margin-left: 30px;
+        font-size: 30px;
+        font-weight: 700px;
+        padding: 10px;
+    }
+    .btn-slider{
+        padding: 5px;
+    }
+    .btn-slider img{
+       width: 15px;
+    }
+    
+    .end-title p{
+        padding: 5px 0;
+        font-size: 13px;
+    }
+   
+}
+
+@media screen and (max-width:330px) {
+    .nav-logo img {
+        width: 70px;
+    }
+
+    .nav-search img {
+        margin-left: 10px;
+        width: 20px;
+    }
+}

@@ -1,0 +1,241 @@
+  a {
+      text-decoration: none;
+  }
+
+  /* -----header media------- */
+  @media screen and (max-width:1330px) {
+      .section-brand {
+          justify-content: center;
+      }
+  }
+
+  @media screen and (max-width: 920px) {
+      .header-mainImg img {
+          width: 485px;
+      }
+
+      .main-exp {
+          justify-content: center;
+      }
+
+      .block-exp4 img {
+          width: 100%;
+      }
+  }
+
+  @media screen and (max-width: 830px) {
+    .nav-links{
+        max-width: 300px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+
+      .nav-links {
+          position: absolute;
+          height: 100vh;
+          top: 0;
+          left: 0;
+          background-color: #fff;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          transform: translateX(-100%);
+          transition: all 0.3s ease-in-out;
+      }
+
+      .header {
+          background-size: 500px;
+      }
+
+      .nav-links.open {
+          transform: translateX(0);
+      }
+
+      .header-burger-menu  {
+          display: block;
+      }
+
+      .nav-links a {
+          color: black;
+      }
+      .nav-links li {
+        padding: 15px;
+    }
+      .nav-search img {
+          margin-left: 10px;
+          width: 30px;
+      }
+
+      .header {
+          background-size: 120%;
+      }
+   
+      .header-main {
+          flex-wrap: wrap;
+      }
+
+      .headerMain-text h1 {
+          font-size: 50px;
+      }
+
+      .headerMain-text p {
+          font-size: 20px;
+      }
+  }
+
+  @media screen and (max-width: 680px) {
+      .card__date-img img {
+          width: 100%;
+      }
+  }
+
+  @media screen and (max-width: 480px) {
+      .header {
+          background-size: 150%;
+      }
+
+      .header-mainImg img {
+          width: 330px;
+      }
+
+      .block-exp img {
+          width: 100%;
+      }
+
+      .title__block-exp4 {
+          text-align: center;
+          margin-left: 10px;
+          margin-right: 10px;
+          margin-top: 100px;
+      }
+  }
+
+  @media screen and (max-width: 767px) {
+    .block-ft {
+        display: none;
+    }
+
+    #media-320 {
+        display: block;
+        text-align: center;
+        margin-left: 60px;
+        justify-content: center;
+    }
+    .main-ft{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+
+  @media screen and (max-width: 320px) {
+      .nav-search img {
+          margin-left: 10px;
+          width: 20px;
+      }
+
+      .header-logo img {
+          width: 70px;
+      }
+
+      .header-main {
+          margin-left: 20px;
+          margin-top: 0px;
+      }
+
+      .headerMain-text h1 {
+          font-size: 45px;
+          margin-top: 20px;
+      }
+
+      .headerMain-text p {
+          font-size: 18px;
+      }
+
+      .header-mainImg img {
+          width: 270px;
+          margin-top: 20px;
+      }
+
+      .header {
+          background-size: 200%;
+          height: 400px;
+      }
+
+      .btn__main-brand .btn {
+          width: 80%;
+      }
+
+      .title__main-brand h1 {
+          font-size: 40px;
+      }
+
+      .title__main-brand p {
+          font-size: 16px;
+      }
+
+      .title__main-brand h3 {
+          font-size: 20px;
+      }
+
+      .img-brand img {
+          width: 100%;
+      }
+
+      .title__block-exp4 {
+          margin-top: 70px;
+      }
+
+      .block-us__cards {
+          margin-left: 20px;
+          margin-right: 20px;
+          margin-bottom: 0px;
+
+      }
+
+      .title-cards__us {
+          margin-left: 30px;
+          margin-top: 30px;
+      }
+
+      .title-cards__us h1 {
+          font-size: 20px;
+      }
+
+      .title-cards__us p {
+          font-size: 15px;
+      }
+
+      .title-cards__us h4 {
+          font-size: 15px;
+      }
+
+      .text__title-us {
+          font-size: 20px;
+      }
+      .text__title-us h1{
+        font-size: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .contact-us {
+          height: 980px;
+      }
+
+      .card__date-title h1 {
+          font-size: 30px;
+      }
+
+      .card__date-title p {
+          font-size: 15px;
+      }
+
+      .end-title p {
+          font-size: 14px;
+      }
+      .container-mss{
+        background-size: 120%;
+      }
+  }
