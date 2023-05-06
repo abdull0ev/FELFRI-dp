@@ -232,7 +232,7 @@
     overflow: hidden;
   }
   .block-exp img {
-    width: 450px;
+    width: 440px;
     object-fit: cover;
     cursor: pointer;
     transition: transform 0.5s;
@@ -356,7 +356,7 @@
     overflow: hidden;
   }
   .card__date-img img {
-      width: 675px;
+      width: 665px;
       object-fit: cover;
       cursor: pointer;
       transition: transform 0.5s;

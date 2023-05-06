@@ -69,6 +69,11 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
+}
+
+.icons-searh {
+    cursor: pointer;
 }
 
 #sale {
@@ -106,6 +111,55 @@ nav {
     margin-left: 20px;
 }
 
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.carousel {
+    white-space: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+    scroll-behavior: smooth;
+
+}
+
+.carousel.dragging {
+    cursor: grab;
+    scroll-behavior: auto;
+}
+
+.carousel img {
+    width: calc(100% / 4);
+    height: 420px;
+    margin-left: 10px;
+}
+
+.carousel img:first-child {
+    margin-left: 0;
+}
+
+.btn__slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #14191B;
+    margin: 50px 0;
+
+}
+
+.btn__slider button {
+    background-color: #14191B;
+    border: none;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.btn__slider img {
+    width: 30px;
+}
 
 
 .footer {
@@ -224,7 +278,7 @@ nav {
     padding: 10px;
     background-color: #14191B;
     margin: 50px 0;
-    
+
 }
 
 .btn__slider button {

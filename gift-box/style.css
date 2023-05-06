@@ -65,6 +65,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 .nav-links li {
@@ -139,7 +140,7 @@ nav {
 }
 
 .sec-block img {
-    width: 450px;
+    width: 440px;
     object-fit: cover;
     transition: transform 0.7s;
     cursor: pointer;

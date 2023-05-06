@@ -6,23 +6,41 @@ burgerMenu.addEventListener('click', () => {
 });
 
 
-let offset  = 0;
-const sliderline = document.querySelector('.slider-line');
-let btnnext = document.querySelector('.btn__slider-next');
-let btnprev = document.querySelector('.btn__slider-prev');
 
-btnnext.addEventListener('click', () =>{
-  offset = offset + 277;
-  if(offset > 1200) {
-    offset = 0;
-  }
-  sliderline.style.left = -offset + 'px'
+
+const carousel = document.querySelector('.carousel')
+let firstImg = carousel.querySelectorAll("img")[0]
+const btn = document.querySelectorAll('.btn__slider button');
+
+let isDragstart = false, prevPageX, prevscrollLeft;
+let firstImgWidth = firstImg.clientWidth + 10;
+
+btn.forEach(btn => {
+    btn.addEventListener("click", () => {
+        carousel.scrollLeft += btn.id == "left" ? -firstImgWidth : firstImgWidth;
+    })
+
 });
 
-btnprev.addEventListener('click', () =>{
-  offset = offset - 277;
-  if(offset < 0) {
-    offset = 1200;
-  }
-  sliderline.style.left = -offset + 'px'
-})
+
+const dragStart = (e) => {
+    isDragstart = true;
+    prevPageX = e.pageX;
+    prevscrollLeft = carousel.scrollLeft;
+}
+const dragging = (e) => {
+    if (!isDragstart) return;
+    e.preventDefault();
+    carousel.classList.add("dragging");
+    let positionDiff = e.pageX - prevPageX;
+    carousel.scrollLeft = prevscrollLeft - positionDiff;
+}
+
+const dragStop = () => {
+    isDragstart = false;
+    carousel.classList.remove("dragging");
+}
+
+carousel.addEventListener("mousedown", dragStart);
+carousel.addEventListener("mousemove", dragging);
+carousel.addEventListener("mouseup", dragStop);
