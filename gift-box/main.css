@@ -16,8 +16,24 @@
         align-items: center;
         transform: translateX(-100%);
         transition: all 0.3s ease-in-out;
+        z-index: 1;
     }
-
+    .nav-link1{
+        transform: translateX(-150%);
+        
+      }
+      .nav-link2{
+        transform: translateX(-150%);
+      }
+      .nav-link3{
+        transform: translateX(-150%);
+      }
+      .nav-link4{
+        transform: translateX(-150%);
+      }
+      .nav-link5{
+        transform: translateX(-150%);
+      }
     .header {
         background-size: 500px;
     }
