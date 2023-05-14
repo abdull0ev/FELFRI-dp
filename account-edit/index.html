@@ -116,12 +116,22 @@
             <div class="modal-content">
                 <div class="modal-row">
                     <img src="images/x.svg" alt="" class="close-btn">
-                    <h1 class="modal-row__title">Регистрация</h1>
-                    <input type="email" placeholder="E-mail">
-                    <input type="text" placeholder="Контактный телефон">
-                    <input type="password" placeholder="Пароль">
-                    <input type="password" placeholder="Подтвердите пароль">
-                    <button class="modal-row__btn">зарегистрироваться</button>
+                   <form class="form" id="add-form">
+                        <h1 class="form__title">Регистрация</h1>
+                        <div class="input-box">
+                            <input data-required="true" class="input-failed" type="email" placeholder="E-mail">
+                        </div>
+                       <div class="input-box">
+                         <input data-max-length="6" data-required="true"class="input-failed"  type="text" placeholder="Контактный телефон">
+                        </div>
+                        <div class="input-box">
+                            <input  class="input-failed" type="password" placeholder="Пароль">
+                        </div>
+                        <div class="input-box">
+                            <input  class="input-failed" type="password" placeholder="Подтвердите пароль">
+                        </div>
+                        <button class="form__btn">зарегистрироваться</button>
+                    </form>
                     <div class="inner">
                         <input type="checkbox" class="checkbox">
                         <p class="inner-title">Авторизуясь, вы соглашаетесь с правилами пользования сайтом и даёте
@@ -131,7 +141,7 @@
             </div>
         </div>
 
-        <div class="popur-chek">
+        <div class="popup-chek">
             <div class="popup-chek-content">
                 <img src="images/x.svg" alt="" class="popup-close-btn">
                 <img src="images/Group 162793.svg" alt="" class="chek-img">

@@ -313,8 +313,8 @@ nav {
     position: relative;
 }
 
-.modal-row input{
-    border: none;
+form input{
+    width: 80%;
     padding: 15px;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
@@ -324,7 +324,7 @@ nav {
     outline: none;
 }
 
-.modal-row__btn {
+.form__btn {
     height: 45px;
     margin: 30px 15px;
     padding: 15px;
@@ -352,14 +352,14 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.modal-row__title {
+.form__title {
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     margin-bottom: 20px;
 }
 
-.popur-chek{
+.popup-chek{
     position: fixed;
     top: 0;
     left: 0;
@@ -478,4 +478,19 @@ nav {
 .end-title p {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.error .input-failed{
+    border-color:   red;
+    transition: .3s;
+    
+}
+
+.error-label{
+    display: block;
+    color: red;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -15px;
+    transition: 0.3s;
 }

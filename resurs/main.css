@@ -1,0 +1,143 @@
+@media screen and (max-width:1050px) {
+    .header-row__box:nth-child(1){
+        width: 100%;
+        text-align: start;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header-row__box:nth-child(2){
+        display: none;
+    }
+    .header-row__box:nth-child(3){
+        display: none;
+    }
+    .header-row__box:nth-child(4){
+        display: none;
+    }
+    .header-row__box:nth-child(5){
+        display: none;
+    }
+    .row__arrow{
+        display: block;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .header__main-box{
+        width: 100%;
+    }
+}
+@media screen and (max-width:900px) {
+    .header__main-box:nth-child(2){
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .nav-links {
+        position: absolute;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        background-color: #ffffff;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(-100%);
+        transition: all 0.3s ease-in-out;
+        z-index: 1;
+    }
+
+    .nav-link1 {
+        transform: translateX(-150%);
+
+    }
+
+    .nav-link2 {
+        transform: translateX(-150%);
+    }
+
+    .nav-link3 {
+        transform: translateX(-150%);
+    }
+
+    .nav-link4 {
+        transform: translateX(-150%);
+    }
+
+    .nav-link5 {
+        transform: translateX(-150%);
+    }
+
+    .header {
+        background-size: 500px;
+    }
+
+    .nav-links.open {
+        transform: translateX(0);
+    }
+
+    .header-burger-menu {
+        display: block;
+    }
+
+    .nav-links a {
+        color: black;
+    }
+
+    .nav-links li {
+        padding: 15px;
+    }
+
+    .nav-search img {
+        margin-left: 10px;
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .block-ft {
+        display: none;
+    }
+
+    #media-320 {
+        display: block;
+        text-align: center;
+        margin-left: 60px;
+        justify-content: center;
+    }
+
+    .main-ft {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .nav-search img {
+        margin-left: 10px;
+        width: 20px;
+    }
+
+    .header-logo img {
+        width: 70px;
+    }
+}
+
+
+@media screen and (max-width:800px) {
+    .carousel img{
+        width: calc(100% / 2);
+        height: 350px;
+    }
+}
+@media screen and (max-width:500px) {
+    .carousel img{
+        width: 100%;
+    }
+}

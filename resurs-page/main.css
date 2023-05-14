@@ -61,102 +61,37 @@
     }
 }
 
-@media screen and (max-width:480px) {
-    .item__content input {
-        width: 200px;
-        padding: 5px;
-        margin-bottom: 30px;
+@media screen and (max-width:650px) {
+    .sec-title{
+        font-size: 40px;
+    }
+  
+    .socials{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .previous{
+        margin-bottom: 60px;
+        border-bottom: 1px solid  rgb(140, 139, 139);
+        width: 100%;
+        justify-content: center;
+    }
+    .previous img{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .previous h4{
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
-    .content__block {
-        padding: 15px;
+    .soc-media{
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
     }
 
-    .date-inputs input:nth-child(1) {
-        width: 40px;
-    }
-
-
-    .date-inputs input:nth-child(2) {
-        width: 80px;
-    }
-
-    .date-inputs input:nth-child(3) {
-        width: 40px;
-    }
-
-    .main__block {
-        padding: 15px;
-    }
-
-    .main__block-content input {
-        width: 200px;
-        margin-bottom: 30px;
-        padding: 5px;
-    }
-
-    .sec-btn {
-        max-width: 90%;
-    }
 }
-
-@media screen and (max-width:550px) {
-    .modal-content {
-        margin-top: 100px;
-    }
-
-    .modal-row {
-        max-width: 300px;
-        margin: 0 auto;
-    }
-    .popup-chek-content{
-        max-width: 300px;
-    }
-    .popup-chek-content h1{
-        font-size: 31px;
-    }
-}
-
-@media screen and (max-width:400px) {
-    .close-btn {     
-        width: 25px;
-    }
-
-    .modal-content {
-        margin-top: 50px;
-    }
-
-    .modal-row {
-        max-width: 200px;
-        margin: 0 auto;
-    }
-
-    .modal-row__title {
-        font-size: 30px;
-    }
-    .modal-row__btn{
-        font-size: 16px;
-    }
-    .modal-row input{
-        padding: 10px;
-    }
-    .popup-chek-content{
-        max-width: 240px;
-    }
-    .popup-chek-content h1{
-        font-size: 26px;
-    }
-    .chek-img {
-        width: 80px;
-        margin-left: 30%;
-    }
-    .popup-close-btn {
-        width: 25px;
-        right: 8px;
-        top: 20px;
-    }
-}
-
 
 @media screen and (max-width: 320px) {
     .nav-search img {
@@ -186,4 +121,10 @@
         justify-content: center;
     }
 
+}
+
+@media screen and (max-width:300px) {
+    .sec-title{
+        font-size: 25px;
+    }
 }
