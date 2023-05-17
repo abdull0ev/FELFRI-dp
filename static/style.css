@@ -13,10 +13,17 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .header-burger-menu {
     display: none;
+    cursor: pointer;
+    color: #ff0000;
+}
+
+.header-logo{
     cursor: pointer;
 }
 
@@ -37,31 +44,43 @@ nav {
     transition: all 0.3s ease-in-out;
     background-color: #fff;
 }
-.header-burger-menu.active .menu-line:nth-child(1){
+
+.header-burger-menu.active .menu-line:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
-  }
-  .header-burger-menu.active .menu-line2{
+}
+
+.header-burger-menu.active .menu-line2 {
     opacity: 0;
-  }
-  .header-burger-menu.active .menu-line:nth-child(3){
+}
+
+.header-burger-menu.active .menu-line:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -4px);
-  }
+}
+
 .nav-links {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.nav-links li {
-    margin: 0 20px;
-    list-style: none;
+#sale {
+    background-color: #CB4F19;
+    padding: 6px;
+    border-radius: 5px;
 }
+
+.nav-links li {
+    margin: 0 10px;
+    list-style: none;
+    transition: 0.4s;
+}
+
+
 
 .nav-links a {
     text-decoration: none;
-    color: #333;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-weight: 600;
     transition: all 0.3s ease-in-out;
     border-bottom: 2px solid transparent;
     color: #fff;
@@ -72,26 +91,24 @@ nav {
     border-bottom: 2px solid #f44336;
 }
 
-#sale {
-    background-color: #CB4F19;
-    padding: 6px;
-    border-radius: 5px;
-}
-
 .nav-search {
     display: flex;
     align-items: center;
+    gap: 20px;
+    cursor: pointer;
 }
 
 .nav-search img {
-    margin-right: 10px;
+    margin-left: 20px;
 }
-.header p{
+
+.header p {
     text-align: center;
     opacity: .5;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .header-item {
     /* margin-left: 230px; */
     max-width: 900px;
@@ -104,24 +121,28 @@ nav {
     padding: 40px 0;
     text-align: start;
 }
-.text__header h1{
+
+.text__header h1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 50px;
 }
-.text__header p{
+
+.text__header p {
     opacity: 1;
     text-align: start;
 }
-.headline{
+
+.headline {
     background-image: url(TermsOfSlae-images/TOS2.jpg);
     background-repeat: no-repeat;
     width: 100%;
-    background-color:  #131518;
+    background-color: #131518;
     background-size: contain;
     padding: 100px 0;
 }
+
 .headline-text {
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
@@ -129,14 +150,17 @@ nav {
     margin: 0 auto;
     text-align: center;
 }
-.headline-text h1{
+
+.headline-text h1 {
     margin-top: 1px;
     margin-bottom: 10px;
 }
-.headline-2__text h1{
+
+.headline-2__text h1 {
     margin-bottom: 20px;
 }
-.headline-2__text{
+
+.headline-2__text {
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 700px;
@@ -144,11 +168,13 @@ nav {
     text-align: start;
     padding: 100px 0;
 }
-.headline-2__text p{
+
+.headline-2__text p {
     padding-bottom: 20px;
     font-weight: 200;
     font-size: 15px;
 }
+
 .footer {
     background-color: #14191B;
 }
@@ -201,28 +227,33 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
 }
-.ft-icons img{
-  width: 30px;
-  margin-top: 10px;
+
+.ft-icons img {
+    width: 30px;
+    margin-top: 10px;
 }
-.ft-icons img:hover{
-  background-color: rgb(234, 36, 69);
-  border-radius: 20px;
-  transition: .3s;
+
+.ft-icons img:hover {
+    background-color: rgb(234, 36, 69);
+    border-radius: 20px;
+    transition: .3s;
 }
-.end{
-  background-color: black;
-  
+
+.end {
+    background-color: black;
+
 }
+
 .end-title {
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 10px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
-.end-title p{
-  padding-top: 10px;
-  padding-bottom: 10px;
+
+.end-title p {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

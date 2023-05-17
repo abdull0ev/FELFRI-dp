@@ -91,6 +91,12 @@ nav {
     display: flex;
     align-items: center;
     gap: 20px;
+    cursor: pointer;
+
+}
+
+.header-logo {
+    cursor: pointer;
 }
 
 .nav-search img {
@@ -166,7 +172,7 @@ nav {
     margin-top: 30px;
 }
 
-.main-box__item{
+.main-box__item {
     position: relative;
 }
 
@@ -261,7 +267,7 @@ nav {
     margin-left: 10px;
 }
 
-.card-slaider{
+.card-slaider {
     width: 300px;
     height: 400px;
     background-color: #14191B;
@@ -269,12 +275,12 @@ nav {
     position: relative;
 }
 
-.card-slaider img{
-width: 300px;
-height: 300px;
+.card-slaider img {
+    width: 300px;
+    height: 300px;
 }
 
-.card-info{
+.card-info {
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     opacity: .8;
@@ -282,7 +288,7 @@ height: 300px;
     margin-top: 15px;
 }
 
-.card-title{
+.card-title {
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 15px;
@@ -300,8 +306,8 @@ height: 300px;
     align-items: center;
     padding: 10px;
     background-color: #14191B;
-max-width: 1200px;
-margin: 50px auto;
+    max-width: 1200px;
+    margin: 50px auto;
 
 }
 
@@ -317,7 +323,7 @@ margin: 50px auto;
     width: 30px;
 }
 
-.reviev{
+.reviev {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -380,26 +386,31 @@ margin: 50px auto;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
 }
-.ft-icons img{
-  width: 30px;
-  margin-top: 10px;
+
+.ft-icons img {
+    width: 30px;
+    margin-top: 10px;
 }
-.ft-icons img:hover{
-  background-color: rgb(234, 36, 69);
-  border-radius: 20px;
-  transition: .3s;
+
+.ft-icons img:hover {
+    background-color: rgb(234, 36, 69);
+    border-radius: 20px;
+    transition: .3s;
 }
-.end{
-  background-color: black;
+
+.end {
+    background-color: black;
 }
+
 .end-title {
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-.end-title p{
-  padding-top: 10px;
-  padding-bottom: 10px;
+
+.end-title p {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

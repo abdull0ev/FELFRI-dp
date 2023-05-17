@@ -29,9 +29,19 @@ burgerMenu.addEventListener('click', () => {
   }, 300);
 })
 
-// setTimeout(() => {
-//   uscard1.style.transform = 'translate(0)'
-// }, 500);
+const headertitle = document.querySelector('.header-title')
+const headreinfo = document.querySelector('.header-info')
+const headermainimg = document.querySelector('.header-main__img')
+
+ setTimeout(() => {
+  headertitle.style.transform = 'translate(0)'
+  headertitle.style.opacity = '1'
+  headertitle.style.marginBottom = '0'
+  headreinfo.style.transform = 'translate(0)'
+  headreinfo.style.opacity = '1'
+  headermainimg.style.opacity = '1'
+ }, );
+
 
 const uscard1 = document.querySelector('.us-card1')
 const uscard2 = document.querySelector('.us-card2')
@@ -57,17 +67,17 @@ const btn2 = document.querySelector('#btn-two')
 const btn3 = document.querySelector('#btn-three')
 
 window.addEventListener('scroll', () => {
-    if (html.scrollTop >= 750) {
+    if (html.scrollTop >= 600) {
      setTimeout(() => {
       btn1.style.transform =' translate(0)';
      }, 500);
     }
-    if (html.scrollTop >= 750) {
+    if (html.scrollTop >= 600) {
       setTimeout(() => {
         btn2.style.transform =' translate(0)';
       }, 300);
     }
-    if (html.scrollTop >= 750) {
+    if (html.scrollTop >= 600) {
         setTimeout(() => {
           btn3.style.transform =' translate(0)';
         }, 100);

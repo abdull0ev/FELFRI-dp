@@ -90,6 +90,11 @@ nav {
     display: flex;
     align-items: center;
     gap: 20px;
+    cursor: pointer;
+}
+
+.header-logo{
+    cursor: pointer;
 }
 
 .nav-search img {

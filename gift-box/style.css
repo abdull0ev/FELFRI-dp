@@ -74,6 +74,10 @@ nav {
     transition: 0.4s;
 }
 
+.header-logo{
+    cursor: pointer;
+}
+
 .nav-links a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -92,6 +96,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 20px;
+    cursor: pointer;
 }
 
 .nav-search img {
